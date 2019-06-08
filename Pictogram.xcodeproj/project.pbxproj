@@ -14,6 +14,8 @@
 		5241B0C122A8E6A100E32FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5241B0BF22A8E6A100E32FDE /* LaunchScreen.storyboard */; };
 		5241B0CC22A8E6A100E32FDE /* PictogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241B0CB22A8E6A100E32FDE /* PictogramTests.swift */; };
 		5241B0D722A8E6A100E32FDE /* PictogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241B0D622A8E6A100E32FDE /* PictogramUITests.swift */; };
+		5241B0E722A8F93100E32FDE /* ImageExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241B0E622A8F93100E32FDE /* ImageExtention.swift */; };
+		5241B0E922A9045500E32FDE /* ThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241B0E822A9045500E32FDE /* ThumbnailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5241B0D222A8E6A100E32FDE /* PictogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5241B0D622A8E6A100E32FDE /* PictogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictogramUITests.swift; sourceTree = "<group>"; };
 		5241B0D822A8E6A100E32FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5241B0E622A8F93100E32FDE /* ImageExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtention.swift; sourceTree = "<group>"; };
+		5241B0E822A9045500E32FDE /* ThumbnailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				5241B0BD22A8E6A100E32FDE /* Assets.xcassets */,
 				5241B0BF22A8E6A100E32FDE /* LaunchScreen.storyboard */,
 				5241B0C222A8E6A100E32FDE /* Info.plist */,
+				5241B0E622A8F93100E32FDE /* ImageExtention.swift */,
+				5241B0E822A9045500E32FDE /* ThumbnailViewController.swift */,
 			);
 			path = Pictogram;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				5241B0B922A8E6A000E32FDE /* ViewController.swift in Sources */,
 				5241B0B722A8E6A000E32FDE /* AppDelegate.swift in Sources */,
+				5241B0E722A8F93100E32FDE /* ImageExtention.swift in Sources */,
+				5241B0E922A9045500E32FDE /* ThumbnailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Pictogram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Pictogram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,7 +478,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PictogramTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,7 +499,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PictogramTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,7 +519,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PictogramUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,7 +539,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC7ZW95TJH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PictogramUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
